@@ -1,20 +1,20 @@
 # 4 STEP ADD PROPS #
 -----------------
-1 * Parent
+1. Parent
  ```
 data: {
-key : value
+  key : value
 }
 ```
-2 * Parent
+2. Parent
  ```
 <tag :propsname='key'>
 ```
-3 * Chidren 
+3. Chidren 
 ```
 props: ['propsname']
 ```
-4 * Chidren 
+4. Chidren 
 ```
 <tag>{{ propsname }}</tag>
 ```
