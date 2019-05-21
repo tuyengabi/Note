@@ -6,3 +6,7 @@ onunload | occurs one a page has unloaded (for <body>) | Se déclenche lorsque l
 onchange | occurs when the content of a form element, the selection, or the checked state have changed (for <input>, <keygen>, <select>, and <textarea>) | Se produit lorsqu'une modification à lieu sur un champ de saisie | Xảy ra khi giá trị (value) của thẻ HTML đổi. Thường dùng trong các đối thẻ form input 
 onmouseover | occurs when the pointer is moved onto an element, or onto one of its children | Se déclenche lorque le cursor de la souris survole l'élément | Xảy ra khi con trỏ chuột bắt đầu rê trên thẻ HTML
 onmouseout | occurs when a user moves the mouse pointer out of an element, or out of one of its children | Se déclenche lorque le cursor de la souris bien quitte l'élément | Xảy ra khi con trỏ chuột bắt đầu rê khỏi thẻ HTML
+onmousedown | occurs when the user presses a mouse button over an element | Se déclenche lorsqu'un button de la souris est appuyé | ...
+onmouseup | occurs when a user releases a mouse button over an element | Se déclenche lorsqu' un button de la souris est bien relaché | ...
+onblur | occurs when an element loses focus | Se déclenche lorsque l'élément perd le focus | Xảy ra khi con trỏ chuột rời khỏi ô input
+onfocus | occurs when an element get focus | Se déclenche lorsque l'élément à le focus | được kích hoạt ngay chi người dùng chuyển con trỏ vào thẻ
