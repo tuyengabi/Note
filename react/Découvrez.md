@@ -32,6 +32,18 @@ Incompréhensible, très ardu à maintenir et bourré de bugs difficiles à rés
 React afait voler en éclats les dogmes du développement web, qui voulaient une séparation stricte entre la structure HTML, le style et l'aspect CSS et le comportement Javascript.
 Traditionnellement écrit dans des fichiers bien distincts pour revenir à la notion fondamentale de composants autonomes, complets et cohérents.
 Notez que la plupart des concurrents de React, qu'il s'agisse d'Angular, d'Ember, de Vue.js ou des autres, rejoignent cette philosophie, et leurs approches diffèrent essentiellement par la syntaxe et les détails d'implémenttation.
-Leurs 
+Leurs écosystèmes, outillages ou déploiements majeurs en revanche, sont beaucoup plus réduits que pour React.
+----------------------
+
+### Encapsulation
+Les composants React se comportent, vis-à-vis du reste de l'application , comme une boite noire, avec une interface de programmation externe, une API, clairement définie.
+Et ils contiennent en eux tout le nécessaire à leur bon fonctionnement : la structure, les style et le comportement.
+Le fait de rassembler dans un même fichier source ces trois volets connectés par une syntaxe consise et famillière baptiséee JSX, que nous verrons en détails dans la prochaine partie, facilite considérablement le développement.
+Pour comprendre les changements d'aspect ou de comportement d'un composant , plus besoin de fouiller à la main dans plusieurs fichiers sources plus globaux, en essayant de connecter les points de l'un à l'autre.
+Notez que cette encapsulation favorise également l'écriture de tests automatisés pour les composants.
+--------------
+
+### Composition
+React nous encourage à structurer nos interfaces 
 
   
